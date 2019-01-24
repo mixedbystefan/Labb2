@@ -52,6 +52,8 @@ public class Servlet extends HttpServlet {
 			
 			case "VALIDATE":
 				listEmptyA(request, response);
+				
+				// Ska vara denn kod
 				/*if (Validmess == false) 
 				{
 					listEmptyA(request, response);
