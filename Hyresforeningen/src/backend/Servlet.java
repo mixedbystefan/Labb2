@@ -51,16 +51,16 @@ public class Servlet extends HttpServlet {
 			
 			
 			case "VALIDATE":
-				listEmptyA(request, response);
 				
-				// Ska vara denn kod
-				/*if (Validmess == false) 
+				
+				
+				if (Validmess == false) 
 				{
 					listEmptyA(request, response);
 					_command="LOAD_EMPTY_A";
 				}
 				else {doPost(request, response);}
-				listEmptyA(request, response);*/
+				listEmptyA(request, response);
 				break;
 			case "LIST":
 				listTenants(request, response);
