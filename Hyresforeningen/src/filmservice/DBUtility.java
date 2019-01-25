@@ -1,4 +1,4 @@
-package backend;
+package filmservice;
 
 
 import java.sql.Connection;
@@ -26,6 +26,12 @@ public DBUtility(DataSource theDataSource)
 	{
 		dataSource = theDataSource;
 	}
+
+public DBUtility() 
+
+{
+	
+}
 
 
 // Metod som hämtar alla lediga lägenheter

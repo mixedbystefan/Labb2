@@ -1,4 +1,4 @@
-package backend;
+package filmservice;
 
 import java.io.IOException;
 
